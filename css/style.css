@@ -746,4 +746,15 @@ a {
 		  transform: rotate(13deg) scale(1.25);
 		}
 	  }
+	
+	/* This only changes this particular animation duration */
+.animate__animated.animate__bounce {
+  --animate-duration: 2s;
+}
+
+/* This changes all the animations globally */
+:root {
+  --animate-duration: 2s;
+  --animate-delay: 1s;
+}
 
